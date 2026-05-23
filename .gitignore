@@ -1,0 +1,31 @@
+# CMake Build Outputs
+/build/
+
+# STM32CubeIDE / Eclipse
+.metadata/
+Debug/
+Release/
+.settings/
+*.launch
+*.elf
+*.bin
+*.map
+*.hex
+*.lst
+*.o
+*.d
+*.su
+
+# VS Code
+.vscode/
+.history/
+.vscode/cmake-kits.json
+
+# Clangd / LSP / Compilers
+.clangd/
+compile_commands.json
+.cache/
+
+# OS / Temporary
+.DS_Store
+Thumbs.db
